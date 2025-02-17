@@ -1,0 +1,7 @@
+#criar uma função chamada triangle com dois paramêtros: string e altura do triangulo. Retornar com o desenho do mesmo no terminal.
+
+def triangle(string, altura):
+    for i in range (altura+1):
+        print(string*i)
+    
+triangle("L", 5)
