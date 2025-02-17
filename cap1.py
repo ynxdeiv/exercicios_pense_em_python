@@ -1,3 +1,4 @@
+# testar relação trigonométrica
 import math
 sen = math.sin(0.733)
 cos = math.cos(0.733)
