@@ -1,0 +1,7 @@
+#criar uma função chamada rectangle com três paramêtros: string, largura e altura . Retornar com o desenho do mesmo no terminal.
+
+def rectangle(string, largura, altura): 
+        for i in range (altura):
+            print(string*largura)
+    
+rectangle("h", 5, 4)
